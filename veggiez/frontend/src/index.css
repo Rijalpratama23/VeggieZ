@@ -4,4 +4,25 @@
   .font-lemon {
     font-family: 'Lemon', serif;
   }
+  .font-anime {
+    font-family: "Annie Use Your Telescope", cursive;
+  }
+  .font-primary {
+    font-family: "Annapurna SIL", serif;
+  }
+  .font-kavoon {
+     font-family: "Kavoon", serif;
+  }
+  .color-primary {
+    color: #3A803E;
+  }
+  .primary {
+    background-color: #3A803E;
+  }
+  .secondary {
+    background-color: #D1DBD1;
+  }
+  .poster {
+    background-color: #C2E8C4;
+  }
 }
