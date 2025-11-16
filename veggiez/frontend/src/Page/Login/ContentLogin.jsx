@@ -47,7 +47,7 @@ const Content = () => {
             </div>
 
             {/* Tombol Login */}
-            <Button onClick={handleLogin}/>
+            <Button onClick={handleLogin} title='Login'/>
 
             {/* Garis pembatas */}
             <div className="flex items-center my-4">

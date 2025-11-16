@@ -16,16 +16,28 @@
   .font-actor {
     font-family: "Actor", sans-serif;
   }
+  .font-acme {
+    font-family: "Acme", sans-serif;
+  }
+  .font-promo {
+    font-family: "Allerta Stencil", sans-serif;
+  }
   .color-primary {
     color: #3A803E;
   }
   .primary {
     background-color: #3A803E;
   }
+  .bg-new {
+    background-color: #C4C9D5;
+  }
   .secondary {
     background-color: #D1DBD1;
   }
   .poster {
     background-color: #C2E8C4;
+  }
+  .bluelight {
+    background-color: #EDF0FE;
   }
 }
