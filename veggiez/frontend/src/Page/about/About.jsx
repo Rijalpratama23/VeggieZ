@@ -8,7 +8,7 @@ import hazmi from '../../assets/hazmi.jpg';
 
 const About = () => {
   return (
-    <div className="min-h-screen secondary">
+    <div className="min-h-screen secondary pb-15">
       <Header />
       <div className="poster flex justify-center mx-4 sm:mx-8 md:mx-18 my-10 sm:my-15 md:my-25 rounded-2xl">
         <div className="bg-white w-full sm:w-11/12 md:w-285 my-10 sm:my-15 mx-4 sm:mx-10 md:mx-15 p-5 sm:p-8 md:p-10 rounded-2xl shadow-xl/20">

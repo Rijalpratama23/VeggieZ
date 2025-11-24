@@ -1,8 +1,24 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const RingkasanPesanan = () => {
+  const navigation = useNavigate();
+
   return (
-    <div className="bg-white rounded-2xl shadow-md p-6 w-[380px] mr-0 md:mr-15 text-left">
+    <div
+      className="
+        bg-white 
+        rounded-2xl 
+        shadow-md 
+        p-6 
+        w-full
+        max-w-[380px] 
+        mx-auto 
+        md:mx-0
+        md:mr-15 
+        text-left
+      "
+    >
       <h2 className="text-xl font-semibold mb-4">Ringkasan Pesanan</h2>
 
       {/* Subtotal */}
@@ -42,8 +58,22 @@ const RingkasanPesanan = () => {
       </div>
 
       {/* Tombol Lanjutkan */}
-      <button className="w-full bg-green-700 hover:bg-green-800 text-white text-sm font-medium py-2 rounded-full transition-all duration-200">
-        <a href="">Lanjutkan ke Pembayaran</a>
+      <button
+        onClick={() => navigation("/compliteOrder")}
+        className="
+          w-full 
+          bg-green-700 
+          hover:bg-green-800 
+          text-white 
+          text-sm 
+          font-medium 
+          py-2 
+          rounded-full 
+          transition-all 
+          duration-200
+        "
+      >
+        Lanjutkan ke Pembayaran
       </button>
     </div>
   );

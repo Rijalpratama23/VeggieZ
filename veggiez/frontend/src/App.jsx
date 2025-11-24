@@ -7,8 +7,11 @@ import Keranjang from './Page/keranjang/Keranjang';
 import Promo from './Page/promo/Promo';
 import Product from './Page/product/Product';
 import Contact from './Page/contact/Contact';
-import About from './Page/about/About'
-import Setting from './Page/Setting/Setting'
+import About from './Page/about/About';
+import SettingPembeli from './Page/Setting/SettingPembeli';
+import SettingPenjual from './Page/Setting/SettingPenjual';
+import CompliteOrder from './Page/CompliteOrder/CompliteOrder';
+import ConfirmFaid from './Page/ConfirmPaid/ConfirmFaid';
 
 const App = () => {
   return (
@@ -17,11 +20,14 @@ const App = () => {
       <Route path="/home" element={<Home />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/keranjang" element={<Keranjang />} />
+      <Route path="/compliteOrder" element={<CompliteOrder />} />
+      <Route path="/confirmFaid" element={<ConfirmFaid />} />
       <Route path="/promo" element={<Promo />} />
       <Route path="/product" element={<Product />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />
-      <Route path="/setting" element={<Setting />} />
+      <Route path="/settingPembeli" element={<SettingPembeli />} />
+      <Route path="/settingPenjual" element={<SettingPenjual />} />
     </Routes>
   );
 };
