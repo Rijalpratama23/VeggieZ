@@ -121,7 +121,10 @@ const Header = () => {
                   setMenuOpen(false);
                 }}
               ></i>
-              <i className="fa-solid fa-cart-shopping cursor-pointer hover:text-green-700 transition"></i>
+              <i onClick={() => {
+                handleKeranjangCLick();
+                setMenuOpen(false);
+              }} className="fa-solid fa-cart-shopping cursor-pointer hover:text-green-700 transition"></i>
             </div>
           </ul>
         </div>

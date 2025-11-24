@@ -8,7 +8,7 @@ const Contact = () => {
       <Header />
       <div className='flex justify-center mt-25 px-4 sm:px-6 md:px-10'>
         <div className="container flex flex-col lg:flex-row justify-between content-center rounded-2xl poster w-full max-w-6xl">
-          <div className="w-full flex flex-col lg:flex-row justify-between bg-white p-6 sm:p-8 md:p-10 rounded-2xl m-3 sm:m-5 shadow-xl/30">
+          <div className="md:w-full flex flex-col lg:flex-row justify-between bg-white p-6 sm:p-8 md:p-10 rounded-2xl m-3 sm:m-5 shadow-xl/30">
             
             {/* Form Kontak */}
             <form action="" className='my-5 w-full lg:w-1/2'>
